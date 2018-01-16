@@ -621,8 +621,8 @@ UPvr_GetTouchPadPosition
     -  Controller index, 0/1
 **Return Value**
 
-    -  Touchpad’s touch value. Same for Pico Goblin and Pico Neo, see figure pic5.4_ for details
-	.. _pic5.4: http://picosdk.readthedocs.io/en/latest/chapter%20five.html#touchpad-diagram
+    -  Touchpad’s touch value. Same for Pico Goblin and Pico Neo, see figure 5.4_ for details
+	.. _5.4: http://picosdk.readthedocs.io/en/latest/chapter%20five.html#touchpad-diagram
 	
 **Call Method**
 
