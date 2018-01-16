@@ -1,0 +1,61 @@
+﻿.. _8 Development Considerations:
+
+8 Development Considerations
+===============================
+
+8.1	Compatibility with Unity Versions
+------------------------------
+
+
+This SDK is compatible with Unity 5.2 and above (supports Unity2017.1.1 and Unity2017.2.0. Other Unity2017 versions are not verified yet). Please pay attention to the following items before integration:
+
+- Some games can only run normally when Use 32-bit Display Buffer in Player Settings is checked during integration.
+
+- There may exist difference of FPS frame rates between different Unity versions.
+
+- UGUI cannot be displayed in Unity 5.3.5f1 version, but this issue has been fixed and it can be displayed in 5.3.5 P5.
+
+- Do not select “Multithreaded Rendering” option in Unity Player Setting.
+
+- In Unity5.4.0 and later versions, it's necessary to verify the V Sync setting and the steps are as follows: Go to “Edit>Project Settings > Quality”, check “Simple” under “Levels” and make sure that the value of “V Sync Count” under “Other”is “Don't Sync”. 
+
+.. image:: _static/8.1.jpg
+Figure 8.1 Verify V Sync Settings
+
+- Unity2017.2.0 compilation requires setting target API level to Andriod5.0 (except 2017.2.0f3).
+
+
+8.2	Android Manifest File
+------------------------------
+
+If the APP does not contain AndroidManifest file, please use the AndriodManifest file in the SDK directly. It the APP contains the file, please do consolidate the AndriodManifest file from the SDK with it. Here are the major items:
+
+- In Pico Neo DK/DKS projects, add special meta-data, otherwise it won’t display normally.
+
+::
+
+<meta-data android:name="com.picovr.type" android:value="vr"/>
+<meta-data android:name="com.picovr.display.orientation" android:value="180"/>
+
+- In Pico Neo DK/DKS projects, all Activity that require display must inherit
+
+.. code-block:: java
+    
+    com.unity3d.player.UnityPlayerNativeActivityPico              
+
+
+- Add two Service definitions to the projects that use Pico1 and Pico2 blue tooth controls.
+
+::
+
+<service android:name="com.picovr.picovrlib.service.LarkConnectService" />
+<service android:name="com.picovr.picovrlib.ble.BluetoothLeService" />
+
+- Add necessary permissions
+
+::
+
+<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+<uses-permission android:name="android.permission.BLUETOOTH" />
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+<uses-permission android:name="android.permission.INJECT_EVENTS" />

@@ -1,0 +1,16 @@
+﻿.. _2 Device Support:
+
+2 Device Support
+===============================
+
+
+
+The SDK only supports the following versions under Pico brand：
+
+Table 2.1 List of Supported Devices
+
+==============================================    ==============================================
+Device Type                                       Model
+VR Glasses                                        Pico1/1s、Pico U
+All-in-one Machine                                Pico Neo DK/ DKS、Pico Goblin、Pico Neo
+==============================================    ==============================================

@@ -1,0 +1,14 @@
+﻿.. _9 Auxiliary Tools:
+
+9 Auxiliary Tools
+===============================
+
+9.1	Show FPS
+------------------------------
+
+
+If you want to show FPS, please go to the Inspector panel of Pvr_UnitySDK and check “Show FPS in Scene”under Pvr_Unity SDK Manager component.
+
+.. image:: _static/9.1.jpg
+Figure 9.1 Turn on FPS
+
