@@ -87,6 +87,7 @@ Table 5.2 the Correspondence between RGoblin HMD Keys and Unity Input Keys
 
 ==============================================    ==============================================
 Goblin HMD Keys                                   Unity Input Keys
+==============================================    ==============================================
 Key 1                                             Power Button --- System occupied
 Key 2                                             Home Key --- System occupied
 Key 3                                             JoystickButton0
@@ -131,6 +132,7 @@ Table 5.3 The Key value correspondence of Split Controller and Unity
 
 ========== =============== =========================== ==============================
 ID         Key Name        Unity Key Value 1           Unity Key Value 2
+========== =============== =========================== ==============================
 1          A               JoystickButton0             JoystickButton0
 2          B               JoystickButton1             JoystickButton1
 3          X               JoystickButton2             JoystickButton2
