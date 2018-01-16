@@ -24,9 +24,9 @@ Contents
 :ref:`2	Device Support <2 Device Support>`                                           Device Support
 :ref:`3	Development Environments <3	Development Environments>`                       Development Environments
 :ref:`4	QuickStart for SDK Integration <4 QuickStart for SDK Integration>`           QuickStart for SDK Integration
-:ref:`5	Hardware Product Development Guide <5 Hardware Product Development Guide>`   This section will describe how to use SDK on the various Pico hardware products. Developers can choose to read the corresponding content accordingly
+:ref:`5	Hardware Product Development Guide <5 Hardware Product Development Guide>`   how to use SDK on the various Pico hardware products
 :ref:`6	Overview of API Functions <6 Overview of API Functions>`                     Overview of API Functions
-:ref:`7	Payment System <7 Payment System>`                                           Pico Pay is a game currency payment system based on the Pico account system and it’s settled according to the current game currency unit (P coin) under Pico. If your project needs an in-app-purchase feature, please read this chapter carefully; if not, please ignore this chapter
+:ref:`7	Payment System <7 Payment System>`                                           How to use Pico game currency payment system based on the Pico account system
 :ref:`8	Development Considerations <8 Development Considerations>`                   Development Considerations
 :ref:`9	Auxiliary Tools <9 Auxiliary Tools>`                                         Auxiliary Tools
 :ref:`10 FAQ <10 FAQ>`                                                               Frequently asked questions
