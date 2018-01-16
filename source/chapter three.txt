@@ -15,7 +15,7 @@ Table 3.1 Android Development Environments
 Software Name                             Software Version
 ======================================    ==============================================
 JDK                                       jdk1.7.0_01and above
-Android SDK                               API Level and above
+Android SDK                               API Level 19 and above
 ======================================    ==============================================
 
 Moreover, if you develop applications for Pico 1/1s or Pico U, that is, Android mobile apps, please do make sure that the Android phones meet the following requirements:
