@@ -14,15 +14,15 @@ Figure 4.1 Create New Project
 
 Create cube1, cube2, cube3, and configure their Transform information as follows:
 
-.. image:: _static/4.2.PNG
+.. image:: _static/4.2.png
 
 Figure 4.2 cube1 Transform
 
-.. image:: _static/4.3.PNG
+.. image:: _static/4.3.png
 
 Figure 4.3 cube2 Transform
 
-.. image:: _static/4.4.PNG
+.. image:: _static/4.4.png
 
 Figure 4.4 cube3 Transform
 
@@ -31,19 +31,19 @@ Step 2: Import SDK
 
 Choose menu Assets>Import Package>Custom Package…
 
-.. image:: _static/4.5.PNG
+.. image:: _static/4.5.png
 
 Figure 4.5 Import Custom Package
 
 At this moment, the system will pop up a dialog, choose “PicoVR_Unity_SDK-versionnumber.unitypackage”, and click to open:
 
-.. image:: _static/4.6.PNG
+.. image:: _static/4.6.png
 
 Figure 4.6 Select Unity Package
 
 Once open, the system will pop up another dialog. Please import the corresponding sections according to your needs:
 
-.. image:: _static/4.7.PNG
+.. image:: _static/4.7.png
 
 Figure 4.7 Import Options
 
@@ -52,13 +52,13 @@ Step 3: Use SDK
 
 Go to Project tab, expand Assets>Pvr_UnitySDK>Prefabs in turn, drag Pvr_UnitySDK prefab into the scene and set the Position and Rotation of its Transform component to (0, 0, 0):
 
-.. image:: _static/4.8.PNG
+.. image:: _static/4.8.png
 
 Figure 4.8 Directory for Pvr_UnitySDK Prefab
 
 With Unity Prefab, the hierarchy of the scene should look like the following figure:
 
-.. image:: _static/4.9.PNG
+.. image:: _static/4.9.png
 
 Figure 4.9 Scene Hierarchy
 
@@ -69,7 +69,7 @@ Step 4: Mock Run
 
 Click on the Run button and you can see the screen below in the Game window:
 
-.. image:: _static/4.10.PNG
+.. image:: _static/4.10.png
 
 Figure 4.10 Run Simulation
 
@@ -80,7 +80,7 @@ Step 5: Packaging
 
 Before packaging, you still need to set the tracking type for head and hand according to your current platform: Go to the Inspector panel of Pvr_UnitySDK, if the current target platform is not Pico Neo, you’ll need to set the Head Pose property of Pvr_Unity SDK Manager component to “Three Dof”and Hand Pose to “Three Pose”: 
 
-.. image:: _static/4.11.PNG
+.. image:: _static/4.11.png
 
 Figure 4.11 Adapting Target Platform
 
