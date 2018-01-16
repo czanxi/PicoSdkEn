@@ -143,7 +143,7 @@ Note: In this configuration file, pico_pay_key/ pico_pay_key_foreign corresponds
 
 The payment system workflow is more complex and we have provided a demo for reference. Expand Assets> Pvr_Payment>Demo>Scenes and open the Demo scene: 
 
-.. image:: _static/7.6.PNG
+.. image:: _static/7.6.png
 Figure 7.6 Payment Demo
 
 As illustrated above, the left part of the button represents the method to invoke and the right part, the callback method. Please refer to the above Demo for implementation when you use the payment system
