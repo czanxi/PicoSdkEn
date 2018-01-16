@@ -86,7 +86,7 @@ Figure 4.11 Adapting Target Platform
 
 Save your current scene before packaging, the go to File>Build Settings…, click “Add Current”to add current scene to the build list. Then select Android in Platform field, then click “Switch Platform”, and finally click Build to complete packaging.
 
-.. image:: _static/4.12.PNG
+.. image:: _static/4.12.png
 
 Figure 4.12 Packaging
 
