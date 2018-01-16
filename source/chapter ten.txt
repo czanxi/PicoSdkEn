@@ -28,6 +28,7 @@ Developers can implement this functionality by themselves or find QuitGame.cs sc
 ----------
 
 Follow the steps below to configure it: 
+
 1. Uncheck PicoVRHeadTrack script for Head in PicoVR of the scene.
 
 
