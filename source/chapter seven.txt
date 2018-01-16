@@ -23,19 +23,19 @@ Developers include individual developers and enterprise developers, please apply
 
 After becoming a developer, click on the nickname in the upper right corner to view developer ID, which will be the unique merchant identification in the payment system:
 
-.. image:: _static/7.1.PNG
+.. image:: _static/7.1.png
 Figure 7.1 Merchant ID
 
 - 4. Acquire corresponding strings
 
 Developers can enter the application creation step from the administration center. After clicking create application, first select a platform to publish:
 
-.. image:: _static/7.2.PNG
+.. image:: _static/7.2.png
 Figure 7.2 Select the Platform to Publish App
 
 Then get into the corresponding platform to complete app related information:
 
-.. image:: _static/7.3.PNG
+.. image:: _static/7.3.png
 Figure 7.3 Complete App Related Info
 
 Please pay attention to the read area in the above figure and fill in app types carefully. Once filled in, the app type cannot be modified! If there exists an inside-props payment in game applications, we require developers to use the developer backend to add a merchandise code for unified management.
@@ -43,12 +43,12 @@ Please pay attention to the read area in the above figure and fill in app types 
 After the app is created successfully, the developer platform will assign it strings, including APP ID, APP KEY, APP Secret:
 
 
-.. image:: _static/7.4.PNG
+.. image:: _static/7.4.png
 Figure 7.4 APP ID, APP KEY, and APP Secret
 
 Then select“In-Game Payment Settings” to configure in-game purchase information:
 
-.. image:: _static/7.5.PNG
+.. image:: _static/7.5.png
 Figure 7.5 In-Game Purchase Settings
 
 Note that the rules for merchandise codes are defined as “first character is for letters, only letters and numbers are allows and no more than 20 characters”. The merchandise codes for different props cannot be duplicated. The props are categorized as consumable props and inconsumable props. Consumable props are merchandise that can be purchased repeatedly, such as gold coins, blood bottles etc.; Inconsumable props are only one-time purchases such as weapons, unlock checkpoints. 
