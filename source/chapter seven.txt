@@ -409,9 +409,9 @@ Return Param Example
 	
 .. code-block:: java
 
-    {
-    "ret_code": “SUCCESS”,
-    "ret_msg" : "OK"
+    { 
+    "ret_code":"SUCCESS", 
+    "ret_msg":"OK" 
     }
 
 Table 7.1 Parameters in Payment Result Notification
