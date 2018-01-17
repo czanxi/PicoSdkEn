@@ -47,7 +47,7 @@ UPvr_StartSensor
     - 0: Call succeeded;  1: Call failed
 **Call Method**
 
-    - Pvr_UnitySDKAPI.Sensor.UPvr_StartSensor(index))
+    - Pvr_UnitySDKAPI.Sensor.UPvr_StartSensor(index)
 	
 UPvr_ResetSensor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
