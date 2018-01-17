@@ -446,7 +446,7 @@ Table 7.2 Return Results
 
 ===================   ===============   ============   ========   ==========================================================================
 Field Name            Param             Required       Type       Description
-====================================   ===============   ===============   ============   ==================================================
+===================   ===============   ============   ========   ==========================================================================
 Return status code    ret_code          Yes            String     SUCCESS/FAIL  SUCCESS represents that the merchant has successfully received notification and validated. 
 Return message        ret_msg           No             String     Return message, if not empty, then it’s the reason of error: Name failed - parameter format validation error
 ===================   ===============   ============   ========   ==========================================================================
